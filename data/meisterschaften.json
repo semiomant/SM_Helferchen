@@ -1,0 +1,1241 @@
+{
+	"Akrobatik": {
+		"Schwerpunkte": ["Ausweichen", "Balancieren", "Entfesseln", "Körperformen", "Kunststücke", "Sturz abfangen"],
+		"1": {
+			"Ausweichen I": {},
+			"Balance": {},
+			"Blitzreflexe": {},
+			"Stehaufmännchen": {}
+		},
+		"2": {
+			"Abrollen": {},
+			"Ausweichen II": {},
+			"Entfesselungskünstler": {},
+			"Koordiniertes Ausweichen": {},
+			"Meisterhafte Balance": {}
+		},
+		"3": {
+			"Ausweichbewegungen": {},
+			"Ausweichen III:": {},
+			"Schlangenmensch": {}
+		}
+	},
+
+	"Alchemie": {
+		"Schwerpunkte": ["Gifte", "Heilmittel", "Stärkungsmittel", "Zaubermittel"],
+		"1": {
+			"Effizienz": {},
+			"Geselle": {},
+			"Sparfuchs": {}
+		},
+		"2": {
+			"Begabter Alchemist": {},
+			"Fachmann": {},
+			"Wunderarbeiter": {}
+		},
+		"3": {
+			"Abhärtuung durch Gewöhnung": {},
+			"Meister": {}
+		},
+		"4": {
+			"Meisterwerk": {}
+		}
+	},
+
+	"Anführen": {
+		"Schwerpunkte": ["Einschüchtern", "Flammende Rede", "Koordinieren", "Moral", "Taktik", "Schlachtpläne"],
+		"1": {
+			"Herausforderung": {},
+			"Koordinator": {},
+			"Sammeln": {}
+		},
+		"2": {
+			"Inspirieren": {},
+			"Schlachtplan (Angriff)": {},
+			"Schlachtplan (Verteidigung)": {}
+		},
+		"3": {
+			"Das letzte Aufgebot": {},
+			"Taktisches Genie": {}
+		}
+	},
+
+	"Arkane Kunde": {
+		"Schwerpunkte": ["Artefakte", "Magische Kreaturen", "Magische Phänomene", "Orientierung in Feenwelten", "Rituale", "Symbole", "Wahrsagung", "Zaubersprüche"],
+		"1": {
+			"Arkane Verteidigung I": {},
+			"Artefaktkunde": {},
+			"Schriftrollen erstellen I": {}
+		},
+		"2": {
+			"Arkane Verteidigung II": {},
+			"Jäger des Übernatürlichen": {},
+			"Schriftrollen erstellen II": {},
+			"Wahrsager": {}
+		},
+		"3": {
+			"Bestienjäger": {},
+			"Schriftrollen erstellen III": {}
+		}
+	},
+
+	"Athletik": {
+		"Schwerpunkte": ["Klettern", "Kraftakt", "Laufen", "Springen", "Werfen"],
+		"1": {
+			"Kletteraffe": {},
+			"Sprinter": {},
+			"Weitspringer": {}
+		},
+		"2": {
+			"Flinker Verfolger": {},
+			"Hindernisläufer": {},
+			"Muskelprotz": {}
+		},
+		"3": {
+			"Freikletterer": {},
+			"Mauerstürmer": {}
+		}
+	},
+
+	"Darbietung": {
+		"Schwerpunkte": ["Akrobatische Vorführung", "Bauchreden", "Dichtkunst", "Gaukelei", "Blasinstrumente", "Saiteninstrumente", "Schlaginstrumente", "Komposition", "Öffentliche Rede", "Schauspielerei", "Singen", "Stimmenimitation", "Tanzen"],
+		"1": {
+			"Einstellung beeinflussen": {},
+			"Faszinieren": {},
+			"Geselle": {},
+			"Pass ja auf!": {},
+			"Publikumsliebling": {}
+		},
+		"2": {
+			"Bannlied": {},
+			"Begabter Künstler": {},
+			"Fachmann": {},
+			"Haha, Schurke!": {},
+			"Schmählied/Loblied": {}
+		},
+		"3": {
+			"Lachen ist die beste Medizin": {},
+			"Lied des Aufstandes": {},
+			"Meister": {}
+		}
+	},
+
+	"Diplomatie": {
+		"Schwerpunkte": ["Bekehren", "Feilschen", "Gerüchte", "Heraldik", "Informationssuche", "Minnekunst", "Öffentliche Rede", "Politik", "Umgangsformen", "Verhandeln"],
+		"1": {
+			"Diplomat": {},
+			"Feilscher": {},
+			"Stil und Grazie": {}
+		},
+		"2": {
+			"Scharfe Zunge": {},
+			"Missionar": {},
+			"Etikette": {}
+		},
+		"3": {
+			"Investor": {},
+			"Wisst Ihr überhaupt, wer ich bin?": {}
+		}
+	},
+
+	"Edelhandwerk": {
+		"Schwerpunkte": ["Architektur", "Glasbläserei", "Gravur", "Kalligraphie", "Malerei", "Juwelier", "Sonstige"],
+		"1": {
+			"Effizienz": {},
+			"Geselle": {},
+			"Sparfuchs": {}
+		},
+		"2": {
+			"Begabter Handwerker": {},
+			"Fachmann": {},
+			"Wunderarbeiter": {}
+		},
+		"3": {
+			"Geschickte Rettung": {},
+			"Meister": {}
+		}
+	},
+
+	"Empathie": {
+		"Schwerpunkte": ["Beruhigen", "Lügen erkennen", "Motivation erkennen", "Persönlichkeit einschätzen"],
+		"1": {
+			"Beruhigen": {},
+			"Gegner durchschauen I": {},
+			"Rede mit mir": {}
+		},
+		"2": {
+			"Begabter Menschenkenner": {},
+			"Gegner durchschauen II": {},
+			"Werte einschätzen": {}
+		},
+		"3": {
+			"Herr über den Geist": {},
+			"Hypnose": {}
+		}
+	},
+
+	"Entschlossenheit": {
+		"Schwerpunkte": ["Beherrschungsmagie widerstehen", "Furcht widerstehen", "Prinzipien einhalten", "Redegewandtheit widerstehen", "Unterbrechungen widerstehen"],
+		"1": {
+			"Eiserner Wille": {},
+			"Kühler Kopf I": {},
+			"Unbeirrbar": {}
+		},
+		"2": {
+			"Begabter Sturkopf": {},
+			"Undurchschaubar": {},
+			"Willensanstrengung": {}
+		},
+		"3": {
+			"Gesundes Misstrauen": {},
+			"Kühler Kopf II": {}
+		}
+	},
+
+	"Fingerfertigkeit": {
+		"Schwerpunkte": ["Entfesseln", "Falschspiel", "Fesseln", "Gegenstand verstecken", "Taschendiebstahl", "Taschenspielertricks"],
+		"1": {
+			"Knotenlöser": {},
+			"Kreative Ablenkung": {},
+			"Schnellziehen": {}
+		},
+		"2": {
+			"Begabter Fingerkünstler": {},
+			"Ruhige Hand": {},
+			"Zaubergesten verbergen": {}
+		},
+		"3": {
+			"Ich war's nicht": {},
+			"Waffe aus dem Nichts": {}
+		}
+	},
+
+	"Geschichte & Mythen": {
+		"Schwerpunkte": ["Einzelne Epoche", "Einzelnes Pantheon", "Einzelne Region", "Einzelner Themenbereich", "Einzelnes Volk", "Legendäre Kreaturen", "Prophezeiungen", "Schöpfungsmythen"],
+		"1": {
+			"Büchernarr": {},
+			"Feldforschung": {},
+			"Legendensänger": {}
+		},
+		"2": {
+			"Begabter Historiker": {},
+			"Bibliothekar": {},
+			"Jäger des Sagenhaften": {}
+		},
+		"3": {
+			"Der Sage wahrer Kern": {},
+			"Legendensänger": {}
+		}
+	},
+
+	"Handwerk": {
+		"Schwerpunkte": ["Holzbearbeitung", "Schneiderei/Lederverarbeitung", "Schmiedekunst", "Steinbearbeitung", "Sonstige"],
+		"1": {
+			"Effizienz": {},
+			"Geselle": {},
+			"Sparfuchs": {}
+		},
+		"2": {
+			"Begabter Handwerker": {},
+			"Fachmann": {},
+			"Wunderarbeiter": {}
+		},
+		"3": {
+			"Geschickte Rettung": {},
+			"Meister": {}
+		},
+		"4": {
+			"Meisterwerk": {}
+		}
+	},
+
+	"Heilkunde": {
+		"Schwerpunkte": ["Gifte", "Heilkräuter bestimmen", "Krankheiten", "Wunden", "Zustände"],
+		"1": {
+			"Felddiagnose": {},
+			"Heilungsgeschick": {},
+			"Lebensretter": {}
+		},
+		"2": {
+			"Begabter Heiler": {},
+			"Heilung fördern": {},
+			"Tierarzt": {}
+		},
+		"3": {
+			"Spezialist für alle Wesen": {},
+			"Wundarzt": {}
+		}
+	},
+
+	"Heimlichkeit": {
+		"Schwerpunkte": ["Beschatten", "Hinterhalt", "Natürliche Umgebung", "Spuren verwischen", "Städtische Umgebung", "Verstecken"],
+		"1": {
+			"Leisetreter": {},
+			"Überraschungsangriff I": {},
+			"Unauffällig": {}
+		},
+		"2": {
+			"Begabter Schleicher": {},
+			"Hinterhalt": {},
+			"Überraschungsangriff II": {}
+		},
+		"3": {
+			"Lautlosigkeit": {},
+			"Überraschungsangriff III": {}
+		}
+	},
+
+	"Jagdkunst": {
+		"Schwerpunkte": ["Fallen stellen", "Nahrungssuche", "Spurensuche", "Bärenartige", "Fisch", "Großwild", "Hundeartige", "Insekten", "Katzenartige", "Kleinwild", "Reptil", "Spinnentiere", "Vögel", "Verarbeitung"],
+		"1": {
+			"Tierkenner": {},
+			"Unermüdlicher Verfolger": {},
+			"Waidmann": {}
+		},
+		"2": {
+			"Begabter Spurenleser": {},
+			"Tierexperte": {},
+			"Schneller Jäger": {}
+		},
+		"3": {
+			"Blattschuss": {},
+			"Effizienter Jäger": {}
+		}
+	},
+
+	"Länderkunde": {
+		"Schwerpunkte": ["Einzelne Kultur / Volk", "Einzelne Region", "Geographie", "Philosophie", "Recht"],
+		"1": {
+			"Schnellleser": {},
+			"Sprachbegabt": {},
+			"Universalgelehrter": {}
+		},
+		"2": {
+			"Begabter Gelehrter": {},
+			"Gute Allgemeinbildung": {},
+			"Philosoph": {}
+		},
+		"3": {
+			"Das Wesen der Welt": {},
+			"Praktisches Wissen": {}
+		}
+	},
+
+	"Naturkunde": {
+		"Schwerpunkte": ["Drachen", "Einzelnes Terrain", "Gesteinskunde", "Kräutersuche / Zutaten sammeln", "Kreaturen der Finsternis", "Nahrungssuche", "Pflanzenkunde", "Sternkunde", "Tierkunde", "Wettervorhersage"],
+		"1": {
+			"Des Alchemisten Helfer": {},
+			"Konservierung": {},
+			"Jäger": {}
+		},
+		"2": {
+			"Feind": {},
+			"Meisterjäger": {},
+			"Schneller Sammler": {}
+		},
+		"3": {
+			"Erzfeind": {},
+			"Kräuterhexe": {}
+		}
+	},
+
+	"Redegewandtheit": {
+		"Schwerpunkte": ["Feilschen", "Lügen & Betrügen", "Überreden", "Verführen", "Verkleiden"],
+		"1": {
+			"Ablenken": {},
+			"Beißender Spott": {},
+			"Improvisierte Verkleidung": {}
+		},
+		"2": {
+			"Begabter Lügner": {},
+			"Nicht ins Gesicht!": {},
+			"Tarnidentität": {}
+		},
+		"3": {
+			"Können diese Augen lügen?": {},
+			"Ohne Worte": {}
+		}
+	},
+
+	"Schlösser & Fallen": {
+		"Schwerpunkte": ["Fallen entdecken", "Fallen entschärfen", "Fallen konstruieren", "Mechanik", "Schlösser öffnen"],
+		"1": {
+			"Aufmerksam": {},
+			"Improvisationskünstler": {},
+			"Vorsicht I": {}
+		},
+		"2": {
+			"Flinke Dietriche": {},
+			"Gute Reflexe": {},
+			"Schlösserhammer": {}
+		},
+		"3": {
+			"Magische Tricks": {},
+			"Vorsicht II": {}
+		}
+	},
+
+	"Schwimmen": {
+		"Schwerpunkte": ["Kurzstrecke", "Langstrecke", "Tauchen", "Wasser treten"],
+		"1": {
+			"Arbeit unter Wasser": {},
+			"Flusstaucher": {},
+			"Langstreckenschwimmer": {}
+		},
+		"2": {
+			"Begabter Schwimmer": {},
+			"Kampf unter Wasser": {},
+			"Meerestaucher": {}
+		},
+		"3": {
+			"Apnoe": {},
+			"Tiefseetaucher": {}
+		}
+	},
+
+	"Seefahrt": {
+		"Schwerpunkte": ["Boote fahren", "Fesseln/Knoten", "Fischen", "Flussschifffahrt", "Navigation", "Ruderschiffe", "Seeschifffahrt", "Segelschiffe"],
+		"1": {
+			"Beine des Seemanns": {},
+			"Blick auf die Sterne": {},
+			"Seebär": {}
+		},
+		"2": {
+			"Begabter Seemann": {},
+			"Kapitän der verfaulten Nussschale": {},
+			"Korsar": {}
+		},
+		"3": {
+			"Held der Meere": {},
+			"Meine Karte ist das Firmament": {}
+		}
+	},
+
+	"Straßenkunde": {
+		"Schwerpunkte": ["Bestimmte Stadt", "Gerüchte", "Orientierung", "Schwarzmarkt", "Tatorte", "Zurechtfinden"],
+		"1": {
+			"Gerüchte aufschnappen": {},
+			"Glücksspieler": {},
+			"Schwarzmarkt": {}
+		},
+		"2": {
+			"Begabter Straßenwanderer": {},
+			"Der richtige Ton": {},
+			"Überall zu Hause": {}
+		},
+		"3": {
+			"Gerüchte verbreiten": {},
+			"Wie meine Westentasche": {}
+		}
+	},
+
+	"Tierführung": {
+		"Schwerpunkte": ["Abrichten", "Einzelne Tierart", "Fahrzeug lenken", "Reiten", "Tier beruhigen", "Tier einschüchtern"],
+		"1": {
+			"Dompteur": {},
+			"Reiterkampf": {},
+			"Tier einschätzen": {}
+		},
+		"2": {
+			"Herr der Bestien": {},
+			"Schlachtreiter": {},
+			"Veteran der Arena": {}
+		},
+		"3": {
+			"Freihändigkeit": {},
+			"Zwei Geister, ein Gedanke": {}
+		}
+	},
+
+	"Überleben": {
+		"Schwerpunkte": ["Feuer entzünden", "Lagerbereitung", "Orientierung", "Wettervorhersage", "Wildnisführung"],
+		"1": {
+			"Geländekunde": {},
+			"Meteorologe": {},
+			"Wildnisläufer": {}
+		},
+		"2": {
+			"Sparsame Reise": {},
+			"Vorausschauender Führer": {},
+			"Wetterfest": {}
+		},
+		"3": {
+			"Unfehlbare Orientierung": {},
+			"Wanderer im Schatten": {}
+		}
+	},
+
+	"Wahrnehmung": {
+		"Schwerpunkte": ["Durchsuchung", "Hinterhalte", "Hören", "Riechen", "Schmecken", "Sehen", "Tasten"],
+		"1": {
+			"Absolutes Gehör": {},
+			"Perfekter Gaumen": {},
+			"Umgebungssinne": {}
+		},
+		"2": {
+			"Begabter Späher": {},
+			"Schnelle Durchsuchung": {},
+			"Veränderte Umgebung": {}
+		},
+		"3": {
+			"Niemand war hier": {},
+			"Unterschwellige Warnung": {}
+		}
+	},
+
+	"Zähigkeit": {
+		"Schwerpunkte": ["Erschöpfung widerstehen", "Gift widerstehen", "Krankheiten widerstehen", "Zaubern widerstehen", "Zechen"],
+		"1": {
+			"Rüstungsträger I": {},
+			"Schnell wieder auf den Beinen": {},
+			"Starker Schildarm I": {},
+			"Wachsamkeit": {}
+		},
+		"2": {
+			"Rüstungsträger II": {},
+			"Schmerzwiderstand I": {},
+			"Schnelle Schildabwehr": {},
+			"Starker Schildarm II": {}
+		},
+		"3": {
+			"Dickschädel": {},
+			"Schmerzwiderstand II": {}
+		}
+	},
+
+	"Handgemenge": {
+		"Schwerpunkte": ["Biss", "Faustschlag", "Halten", "Kopfstoß", "Treten", "Bestimmte Waffe"],
+		"1": {
+			"Abdrängen": {},
+			"Improvisation": {},
+			"Kampf mit zwei Waffen": {},
+			"Rückzugsgefecht": {},
+			"Umklammern": {},
+			"Umreißen": {},
+			"Verteidiger": {},
+			"Voranstürmen": {},
+			"Block": {},
+			"Halten": {},
+			"Verwirrung": {}
+		},
+		"2": {
+			"Beidhändige Abwehr": {},
+			"Beidhändiger Angriff": {},
+			"Entwaffnen": {},
+			"Rundumschlag": {},
+			"Schmerzhafter Hieb": {},
+			"Tödlicher Schaden": {},
+			"Verbessertes Umreißen": {}
+		},
+		"3": {
+			"Klingentanz": {},
+			"Meister mit zwei Waffen": {},
+			"Verbessertes Entwaffnen": {},
+			"Würgegriff": {}
+		}
+	},
+
+	"Hiebwaffen": {
+		"Schwerpunkte": ["Bestimmte Waffe"],
+		"1": {
+			"Abdrängen": {},
+			"Improvisation": {},
+			"Kampf mit zwei Waffen": {},
+			"Rückzugsgefecht": {},
+			"Umklammern": {},
+			"Umreißen": {},
+			"Verteidiger": {},
+			"Voranstürmen": {},
+			"Berserker": {},
+			"Schildbrecher": {},
+			"Todesschlag": {}
+		},
+		"2": {
+			"Beidhändige Abwehr": {},
+			"Beidhändiger Angriff": {},
+			"Entwaffnen": {},
+			"Rundumschlag": {},
+			"Hammerschlag": {},
+			"Kraftvoller Rundumschlag": {},
+			"Schmetterschlag": {}
+		},
+		"3": {
+			"Klingentanz": {},
+			"Meister mit zwei Waffen": {},
+			"Knochenbrecher": {},
+			"Kraftvoller Hammerschlag": {}
+		}
+	},
+
+	"Kettenwaffen": {
+		"Schwerpunkte": ["Bestimmte Waffe"],
+		"1": {
+			"Abdrängen": {},
+			"Improvisation": {},
+			"Kampf mit zwei Waffen": {},
+			"Rückzugsgefecht": {},
+			"Umklammern": {},
+			"Umreißen": {},
+			"Verteidiger": {},
+			"Voranstürmen": {},
+			"Berserker": {},
+			"Schild umschlagen": {},
+			"Verteidigungswirbel": {}
+		},
+		"2": {
+			"Beidhändige Abwehr": {},
+			"Beidhändiger Angriff": {},
+			"Entwaffnen": {},
+			"Rundumschlag": {},
+			"Ausdauernder Verteidigungswirbel": {},
+			"Hammerschlag": {},
+			"Unerbittlich": {}
+		},
+		"3": {
+			"Klingentanz": {},
+			"Meister mit zwei Waffen": {},
+			"Durchschlagender Hieb": {},
+			"Kettenfesseln": {}
+		}
+	},
+
+	"Klingenwaffen": {
+		"Schwerpunkte": ["Bestimmte Waffe"],
+		"1": {
+			"Abdrängen": {},
+			"Improvisation": {},
+			"Kampf mit zwei Waffen": {},
+			"Rückzugsgefecht": {},
+			"Umklammern": {},
+			"Umreißen": {},
+			"Verteidiger": {},
+			"Voranstürmen": {},
+			"Ausfall": {},
+			"Verteidigungswirbel": {},
+			"Verwirrung": {}
+		},
+		"2": {
+			"Beidhändige Abwehr": {},
+			"Beidhändiger Angriff": {},
+			"Entwaffnen": {},
+			"Rundumschlag": {},
+			"Gezielte Treffer": {},
+			"Klingenwirbel": {},
+			"Riposte": {}
+		},
+		"3": {
+			"Klingentanz": {},
+			"Meister mit zwei Waffen": {},
+			"Blutiger Aderlass": {},
+			"Eleganter Klingenwirbel": {}
+		}
+	},
+
+	"Schusswaffen": {
+		"Schwerpunkte": ["Bestimmte Waffe"],
+		"1": {
+			"Belagerungsschütze": {},
+			"Scharfschütze": {},
+			"Schnellschütze I": {}
+		},
+		"2": {
+			"Gezielte Schüsse I": {},
+			"Sehnenschneider": {},
+			"Zielschuss": {}
+		},
+		"3": {
+			"Gezielte Schüsse II": {},
+			"Meisterschuss": {},
+			"Schnellschütze II": {}
+		}
+	},
+
+	"Stangenwaffen": {
+		"Schwerpunkte": ["Bestimmte Waffe"],
+		"1": {
+			"Abdrängen": {},
+			"Improvisation": {},
+			"Kampf mit zwei Waffen": {},
+			"Rückzugsgefecht": {},
+			"Umklammern": {},
+			"Umreißen": {},
+			"Verteidiger": {},
+			"Voranstürmen": {},
+			"Ausfall": {},
+			"Opportunist": {},
+			"Sturmlauf": {}
+		},
+		"2": {
+			"Beidhändige Abwehr": {},
+			"Beidhändiger Angriff": {},
+			"Entwaffnen": {},
+			"Rundumschlag": {},
+			"Gezielte Treffer": {},
+			"Klingenwirbel": {},
+			"Schmetterschlag": {}
+		},
+		"3": {
+			"Klingentanz": {},
+			"Meister mit zwei Waffen": {},
+			"Auf Abstand halten": {},
+			"Weitreichender Klingenwirbel": {}
+		}
+	},
+
+	"Wurwaffen": {
+		"Schwerpunkte": ["Bestimmte Waffe"],
+		"1": {
+			"Improvisation": {},
+			"Scharfschütze": {},
+			"Starker Wurfarm": {}
+		},
+		"2": {
+			"Harter Wurf": {},
+			"Mehrfachwurf": {},
+			"Nahkampfwerfer": {}
+		},
+		"3": {
+			"Geschosshagel": {},
+			"Meisterwurf": {}
+		}
+	},
+
+	"Bannmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Bannende Hand": {},
+			"Eilige Identifikation": {},
+			"Bannzauber-Experte": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Konterzauberer": {},
+			"Wissen ist Macht": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Schnelle Reaktion": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Beherrschungsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Einfühlsamkeit": {},
+			"Willensbrecher": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Materielle Verbindung I": {},
+			"Schläfer": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Materielle Verbindung II": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Bewegungsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Arkane Geschwindigkeit": {},
+			"Durchschlagendes Geschoss": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Effektive Bewegung": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Gliederpuppe": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Erkenntnismagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Forschender Geist": {},
+			"Stimmungsgespür": {},
+			"Telepathischer Schild": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Dringliche Botschaft": {},
+			"Fernzauberer": {},
+			"Subtile Forschung": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Stimmen der Freunde": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Felsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Erdverbundenheit": {},
+			"Felsresistenz I": {},
+			"Schmiedemeister": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Felsmeisterschaft": {},
+			"Felsresistenz II": {},
+			"Herr der Felsgeister": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Felsresistenz III": {},
+			"Herr der Felsen": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Feuermagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Brandstifter": {},
+			"Feuerresistenz I": {},
+			"Flammenherz": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Feuermeisterschaft": {},
+			"Feuerresistenz II": {},
+			"Herr der Feuergeister": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Feuerresistenz III": {},
+			"Inferno": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Heilungsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Entgiftung": {},
+			"Kosmetische Thaumaturgie": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Arkane Diagnose": {},
+			"Heilung fördern": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Gesunder Geist in gesundem Körper": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Illusionsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Trübung des Blicks": {},
+			"Zweite Identität": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Zweite Haut": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Künstliche Wirklichkeit": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Kampfmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Eiserne Konzentration": {},
+			"Fernzauberer": {},
+			"Geschossmagie": {},
+			"Gezielte Zauber": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Herz des Zerstörers": {},
+			"Stählerne Konzentration": {},
+			"Veteran des Kampfgetümmels": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Blutbad": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Lichtmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Leuchtkraft": {},
+			"Streiter des Lichtes": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Schutz des Lichtes": {},
+			"Wider die Finsternis": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Ungeblendet": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Naturmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Lied der Natur": {},
+			"Naturkenner": {},
+			"Vertrautenband": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Harmonie mit der Natur": {},
+			"Kind der Wildnis": {},
+			"Stärkung des Vertrauten": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Eins mit der Natur": {},
+			"Vertrautensprache": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Schattenmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Blick in die Dunkelheit": {},
+			"Schattenherr": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Kind der Schatten": {},
+			"Schützende Schatten": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Nachtsicht": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Schicksalsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Glückskind": {},
+			"Vorahnung": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Fluchbringer": {},
+			"Wahrsager": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Hauch des Schicksals": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Schutzmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Eiliger Schutz": {},
+			"Zauberschutz-Experte": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Fernzauberer": {},
+			"Zauberschutz-Meister": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Magischer Sog": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Stärkungsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Magische Zeichen": {},
+			"Überlasten": {},
+			"Übertragung der Kraft": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Eigener Vorteil": {},
+			"Konzentrierter Fokus": {},
+			"Schutz vor Bannung": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Große Übertragung der Kraft": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Todesmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Atem des Sterbenden": {},
+			"Geisterkenner": {},
+			"Untotenjäger": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Herr der Geister": {},
+			"Herr des Alters": {},
+			"Nekromant": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Meister der Untoten": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Verwandlungsmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Bannung der Form": {},
+			"Bevorzugte Gestalt": {},
+			"Freiheit der Form": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Haut des Tieres": {},
+			"Kontrolle der Form": {},
+			"Verhüllung der Form": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Gestalt des Greifvogels": {},
+			"Tierzauberer": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Wassermagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Entgiftung": {},
+			"Kind der Wellen": {},
+			"Wasserresistenz I": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Herr der Wasserwesen": {},
+			"Wassermeisterschaft": {},
+			"Wasserresistenz II": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Herr der Wogen": {},
+			"Wasserresistenz III": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	},
+
+	"Windmagie": {
+		"Schwerpunkte": ["Nach Zauber-Typus"],
+		"1": {
+			"Fokuskontrolle": {},
+			"Hand des Zauberers": {},
+			"Sparsamer Zauberer": {},
+			"Zauberfinger": {},
+			"Zauber verzögern": {},
+			"Stimme des Sturms": {},
+			"Wetterkundig": {},
+			"Windresistenz I": {}
+		},
+		"2": {
+			"Nichts passiert!": {},
+			"Wunderwirker": {},
+			"Herr der Windgeister": {},
+			"Windmeisterschaft": {},
+			"Windresistenz II": {}
+		},
+		"3": {
+			"Artefaktmeister": {},
+			"Auge des Zauberer": {},
+			"Herr des Wetters": {},
+			"Windresistenz III": {}
+		},
+		"4": {
+			"Großmeister": {}
+		}
+	}
+}

@@ -1,1 +1,21 @@
-h1 YO HO HO
+h1 SpliMo Char v0.1
+h2 Rasse
+section#race ng-controller="RaceCntrl" ng-init="init_RC()"
+    button.chs-rc ng-repeat="race in raceList" ng-click="chooseRace(race)" ="{{race.name}}"
+h2 Attribute
+section#attr ng-controller="AttrCntrl" ng-init="init_AC()"
+    select#myslect ng-model="selVal" ng-Options="obj.name for obj in attr"
+    hr
+    #usedInc.attr-descr ="genutzte Ehröhungen: {{usedInc()}}"
+    #availableInc.attr-descr ="freie Erhöungen: {{freeIncRace()}} / {{freeIncCreate()}}"
+    #epInc.attr-descr = "gekaufte Erhöhungen: {{buyInc()}}"
+    hr
+    #curr-attr ="{{selVal.code}}"
+    button#inc ng-click="incCurr()" erhöhen
+    button#dec ng-click="decCurr()" vermindern
+    hr
+    p Berechnete Attr_liste:
+    #attr-aggrgtn
+        p ng-repeat="attr in attrAggrgtn" ="{{attr.name}}: {{attr.val}}"
+
+

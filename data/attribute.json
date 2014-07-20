@@ -1,0 +1,10 @@
+{
+	"AUS": { "name": "Ausstrahlung" },
+	"BEW": { "name": "Beweglichkeit" },
+	"INT": { "name": "Intuition" },
+	"KON": { "name": "Konstitution" },
+	"MYS": { "name": "Mystik" },
+	"STÄ": { "name": "Stärke" },
+	"VER": { "name": "Verstand" },
+	"WIL": { "name": "Willenskraft" }
+}

@@ -21,7 +21,7 @@ get "/char_json/:id" do
         content_type :json
         char[:json]
     else
-        slim :nothing
+        "nothing found"
     end
 end
 
@@ -29,5 +29,5 @@ post "/char_json" do
     dat = params[:data]
     char = Char.new
     char.json = JSON.parse(dat)
-    if char.save then "true" else 'false' end
+    if char.save then char[:id] else 'false' end
 end

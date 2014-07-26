@@ -1,6 +1,6 @@
 [
     {"name": "Mensch", "freeInc": 2, "grk": 5 },
     {"name": "Alb", "freeInc": 1, "fixedInc": "AUS,BEW", "fixedDec":"KON", "grk":5 },
-    {"name": "Gnom", "freeInc": 1, "fixedInc": "MYS,VER", "fixedDec":"STÄ", "grk":3}
-
+    {"name": "Gnom", "freeInc": 1, "fixedInc": "MYS,VER", "fixedDec":"STÄ", "grk":3},
+    {"name": "Varg", "freeInc": 1, "fixedInc": "STÄ,STÄ", "fixedDec":"WIL", "blockedAttr":"STÄ", "grk":6}
 ]

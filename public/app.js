@@ -34,7 +34,6 @@ Array.prototype.remove = function(e) {
     return this.splice(t, 1)[0];
   }
 };
-
 Object.defineProperty(Array.prototype, "remove", {
   enumerable: false
 });
@@ -142,8 +141,9 @@ SMHApp.controller('AttrCntrl', [ '$scope','$q','$http', function ($sc,$q,$http) 
     $sc.freeIncCreate = function () {
         if(!$sc.curr_char) return "?";
         var base = $sc.curr_char.freeAttr,
-            used = $sc.curr_char.attr_changes.filter(function (chng) { return chng.reason == "create"}).length
-        return base - used;
+            used = $sc.curr_char.attr_changes.filter($sc.byReasonPredicate('create')).length,
+            by_decr = $sc.curr_char.attr_changes.filter($sc.byReasonPredicate('freeDec')).length;
+        return base - used + by_decr;
     };
 
     $sc.buyInc = function () {
@@ -154,24 +154,41 @@ SMHApp.controller('AttrCntrl', [ '$scope','$q','$http', function ($sc,$q,$http) 
     //
     $sc.incCurr = function () {
         var fr = $sc.freeIncRace(),
-            fc = $sc.freeIncCreate();
+            fc = $sc.freeIncCreate(),
+            notFixed = $sc.notFixedAttrChngsFor($sc.selVal.code),
+            alreadyRaisedWithAttr = function (){ return notFixed.find($sc.byReasonPredicate('create')) },
+            blockedForRaceRaise = function(){ return $sc.curr_char.race.blockedAttr == $sc.selVal.code},
+            dec = notFixed.find($sc.byReasonPredicate('freeDec'));
+        if (dec) {
+            $sc.curr_char.attr_changes.remove(dec);
+            $sc.computeAttr()
+            return;
+        }
         if ( fr+fc < 1) return;
         add_profile = {val: 1, code: $sc.selVal.code}
-        if (fc > 0)
-            add_profile.reason = "create";
-        else
-            add_profile.reason = "freerace";
-        $sc.curr_char.attr_changes.push(add_profile);
-        $sc.computeAttr();
+        if (!alreadyRaisedWithAttr() && fc > 0) add_profile.reason = "create";
+        if (!blockedForRaceRaise() && fr > 0 ) add_profile.reason = "freerace";
+        if (add_profile.reason) {
+            $sc.curr_char.attr_changes.push(add_profile);
+            $sc.computeAttr();
+        }
     };
 
+    $sc.notFixedAttrChngsFor = function(filt_code) {
+        return $sc.curr_char.attr_changes.filter(function(chng){return (chng.code == filt_code && chng.reason !== 'fixrace')})
+    };
+
+    $sc.byReasonPredicate = function(the_reason){return function(chng){return chng.reason == the_reason}};
+
     $sc.decCurr = function () {
-        var filt_fn = (function(filt_code) { return function(chng){return (chng.code == filt_code && chng.reason !== 'fixrace')}; })($sc.selVal.code),
-            this_attr_list = $sc.curr_char.attr_changes.filter(filt_fn),
+        var this_attr_list = $sc.notFixedAttrChngsFor($sc.selVal.code),
             removee;
-        if (this_attr_list.length < 1) return;
-        removee = this_attr_list[0];
-        $sc.curr_char.attr_changes.remove(removee);
+        if (this_attr_list.length > 0 ) {
+            removee = this_attr_list[0];
+            if (removee.reason == 'freeDec') return;
+            $sc.curr_char.attr_changes.remove(removee);
+        } else
+            $sc.curr_char.attr_changes.push({val: -1, code: $sc.selVal.code, reason:'freeDec'});
         $sc.computeAttr();
     };
 

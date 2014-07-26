@@ -28,6 +28,23 @@ if (!Array.prototype.find) {
   });
 }
 
+Array.prototype.remove = function(e) {
+  var t;
+  if ((t = this.indexOf(e)) > -1) {
+    return this.splice(t, 1)[0];
+  }
+};
+
+Object.defineProperty(Array.prototype, "remove", {
+  enumerable: false
+});
+
+//
+//
+//
+//
+//
+
 function Char($q,$http) {
     this.data = {};
     this.q = $q;
@@ -35,7 +52,7 @@ function Char($q,$http) {
 }
 
 Char.prototype.save = function(first_argument) {
-    $http.post(); //usw
+    this.http.post(); //usw
 };
 
 Char.prototype.init = function() {
@@ -55,11 +72,7 @@ SMHApp.run([ '$rootScope', function ($rs) {
 SMHApp.controller('RaceCntrl', ['$scope','$q','$http', function ($sc,$q,$http) {
     $sc.getRaceDataPromise = function () {
         var prom = $q.defer()
-
-        $http.get("/rasse.json").then(function (resp) {
-            prom.resolve(resp.data);
-        });
-
+        $http.get("/rasse.json").then(function (resp) { prom.resolve(resp.data); });
         return prom.promise;
     };
 
@@ -67,13 +80,23 @@ SMHApp.controller('RaceCntrl', ['$scope','$q','$http', function ($sc,$q,$http) {
         $sc.getRaceDataPromise().then(function (json) {
             $sc.raceList = json;
         });
+        $sc.showing = true;
     };
 
     //functional
 
     $sc.chooseRace = function  (rasse) {
+        var fixfilter = function(chng){return chng.reason == "fixrace" || chng.reason == "freerace" },
+            removePrev = function(chng) { $sc.curr_char.attr_changes.remove(chng)},
+            addWithVal = function(val) { return function(code){ $sc.curr_char.attr_changes.push({val: val, code: code, reason:"fixrace"}) }; };
+        $sc.curr_char.attr_changes.filter(fixfilter).forEach(removePrev);
         $sc.curr_char.race = rasse;
-    }
+        if (rasse.fixedInc) rasse.fixedInc.split(',').forEach(addWithVal(1));
+        if (rasse.fixedDec) rasse.fixedDec.split(',').forEach(addWithVal(-1));
+        $sc.curr_char.raceChosen = !$sc.curr_char.raceChosen
+    };
+
+    $sc.hideShow = function(){ $sc.showing = !$sc.showing};
 }]);
 
 SMHApp.controller('AttrCntrl', [ '$scope','$q','$http', function ($sc,$q,$http) {
@@ -90,6 +113,7 @@ SMHApp.controller('AttrCntrl', [ '$scope','$q','$http', function ($sc,$q,$http) 
             $sc.attr = json;
             $sc.attrNames = $sc.attr.map(function (obj) { return obj.name  });
             $sc.selVal = $sc.attr[6];
+            $sc.$watch('curr_char.raceChosen',function() { $sc.computeAttr()});
             $sc.computeAttr();
         });
     };
@@ -97,8 +121,8 @@ SMHApp.controller('AttrCntrl', [ '$scope','$q','$http', function ($sc,$q,$http) 
     $sc.computeAttr = function () {
         $sc.attrAggrgtn = $sc.attr.map(function(attr) {
             var base_val = 2,
-                chng_for_this = $sc.curr_char.attr_changes.filter(function(chng) {return chng.code == attr.code});
-            end_val = chng_for_this.reduce(function(acc,chng) {return acc+chng.val}, base_val)
+                chng_for_this = $sc.curr_char.attr_changes.filter(function(chng) {return chng.code == attr.code}),
+                end_val = chng_for_this.reduce(function(acc,chng) {return acc+chng.val}, base_val);
             return {name: attr.name, val: end_val}
          });
     }
@@ -127,12 +151,11 @@ SMHApp.controller('AttrCntrl', [ '$scope','$q','$http', function ($sc,$q,$http) 
     };
 
     //functional
+    //
     $sc.incCurr = function () {
         var fr = $sc.freeIncRace(),
             fc = $sc.freeIncCreate();
-        console.log(fc, fr);
         if ( fr+fc < 1) return;
-        console.log('try add');
         add_profile = {val: 1, code: $sc.selVal.code}
         if (fc > 0)
             add_profile.reason = "create";
@@ -143,8 +166,14 @@ SMHApp.controller('AttrCntrl', [ '$scope','$q','$http', function ($sc,$q,$http) 
     };
 
     $sc.decCurr = function () {
+        var filt_fn = (function(filt_code) { return function(chng){return (chng.code == filt_code && chng.reason !== 'fixrace')}; })($sc.selVal.code),
+            this_attr_list = $sc.curr_char.attr_changes.filter(filt_fn),
+            removee;
+        if (this_attr_list.length < 1) return;
+        removee = this_attr_list[0];
+        $sc.curr_char.attr_changes.remove(removee);
+        $sc.computeAttr();
+    };
 
-
-    }
-
+    $sc.hideShow = function(){ $sc.showing = !$sc.showing};
 }]);
